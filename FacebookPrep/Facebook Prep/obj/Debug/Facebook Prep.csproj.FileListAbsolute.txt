@@ -1,0 +1,7 @@
+C:\Users\ofir_roz\source\repos\Facebook Prep\Facebook Prep\bin\Debug\Facebook Prep.exe.config
+C:\Users\ofir_roz\source\repos\Facebook Prep\Facebook Prep\bin\Debug\Facebook Prep.exe
+C:\Users\ofir_roz\source\repos\Facebook Prep\Facebook Prep\bin\Debug\Facebook Prep.pdb
+C:\Users\ofir_roz\source\repos\Facebook Prep\Facebook Prep\obj\Debug\Facebook Prep.csprojAssemblyReference.cache
+C:\Users\ofir_roz\source\repos\Facebook Prep\Facebook Prep\obj\Debug\Facebook Prep.csproj.CoreCompileInputs.cache
+C:\Users\ofir_roz\source\repos\Facebook Prep\Facebook Prep\obj\Debug\Facebook Prep.exe
+C:\Users\ofir_roz\source\repos\Facebook Prep\Facebook Prep\obj\Debug\Facebook Prep.pdb
