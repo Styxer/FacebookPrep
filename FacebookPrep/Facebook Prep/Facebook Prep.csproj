@@ -8,10 +8,11 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>Facebook_Prep</RootNamespace>
     <AssemblyName>Facebook Prep</AssemblyName>
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -44,10 +45,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="3Sum\3Sum_Solution.cs" />
+    <Compile Include="clsGraph.cs" />
     <Compile Include="Container With Most Water\Container_With_Most_Water_Solution.cs" />
+    <Compile Include="DFS.cs" />
+    <Compile Include="kthSmallestQuickSort.cs" />
+    <Compile Include="MaxHeap.cs" />
+    <Compile Include="Min Cost To Hire K Workers\MinCostToHireKWorkers.cs" />
+    <Compile Include="MinHeap.cs" />
     <Compile Include="Most Stones Removed\MostStonesRemovedSolutiion.cs" />
     <Compile Include="Natural Sort Compare\LinqExtensions.cs" />
     <Compile Include="Natural Sort Compare\NaturalSortComparer.cs" />
+    <Compile Include="Number of Islands\NumberOfIslandsSolution.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Two Sum\TwoSumSolution.cs" />

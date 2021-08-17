@@ -42,10 +42,10 @@ namespace Facebook_Prep
 
             //Console.Read();
 
-            var list = new[] { 3, 3 };
-            TwoSumSolution.TwoSum(list, 9).ToList().ForEach(x => Console.WriteLine(x));
+            //var list = new[] { 3, 3 };
+            //TwoSumSolution.TwoSum(list, 9).ToList().ForEach(x => Console.WriteLine(x));
 
-
+            Min_Cost_To_Hire_K_Workers.MinCostToHireKWorkers.MinCostToHireWorkers(new[] { 10, 20, 5 }, new[] { 70, 50, 30 }, 2);
 
 
             Console.Read();
