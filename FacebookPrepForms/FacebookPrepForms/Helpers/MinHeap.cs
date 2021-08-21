@@ -1,6 +1,8 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -134,6 +136,18 @@ namespace FacebookPrepForms.Helpers
 
         public IEnumerator<T> GetEnumerator() => values.Skip(1).GetEnumerator();
 
-        IEnumerator IEnumerable.GetEnumerator() => GetEnumerator();
+    
+
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+
+
+            return GetEnumerator();
+        }
+
+        IEnumerator<T> IEnumerable<T>.GetEnumerator()
+        {
+            return GetEnumerator();
+        }
     }
 }

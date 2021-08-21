@@ -37,5 +37,17 @@ namespace FacebookPrepForms
             items.Add(a); items.Add(b); items.Add(c); items.Add(d);
             Console.WriteLine(Accounts_Merge.Solution.AccountsMerge(items));
         }
+
+        private void KthLargestElementInAnArray_Click(object sender, EventArgs e)
+        {
+            lblSolution.Text = (Kth_Largest_Element_in_an_Array.Solution.FindKthLargestV2(new[] { 3, 2, 3, 1, 2, 4, 5, 5, 6 }, 4)).ToString();
+        }
+
+        private void CombinationSumII_Click(object sender, EventArgs e)
+        {
+            Combination_Sum_II.Solution.CombinationSum2(new[] { 10, 1, 2, 7, 6, 1, 5 }, 8);
+            
+
+        }
     }
 }

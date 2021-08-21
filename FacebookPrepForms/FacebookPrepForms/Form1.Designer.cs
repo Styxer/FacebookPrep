@@ -47,6 +47,16 @@ namespace FacebookPrepForms
             this.TwoSum = new System.Windows.Forms.Button();
             this.ValidParentheses = new System.Windows.Forms.Button();
             this.BattleshipsInABoard = new System.Windows.Forms.Button();
+            this.FlippingAnImage = new System.Windows.Forms.Button();
+            this.KthLargestElementInAnArray = new System.Windows.Forms.Button();
+            this.lblSolution = new System.Windows.Forms.Label();
+            this.FruitIntoBaskets = new System.Windows.Forms.Button();
+            this.BestTimeToBuyAndSellStock = new System.Windows.Forms.Button();
+            this.GroupAnagrams = new System.Windows.Forms.Button();
+            this.PathSumII = new System.Windows.Forms.Button();
+            this.BoatsToSavePeople = new System.Windows.Forms.Button();
+            this.CombinationSumII = new System.Windows.Forms.Button();
+            this.WordSearch = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn3Sum
@@ -213,11 +223,113 @@ namespace FacebookPrepForms
             this.BattleshipsInABoard.Text = "Battleships in a Board(419)";
             this.BattleshipsInABoard.UseVisualStyleBackColor = true;
             // 
+            // FlippingAnImage
+            // 
+            this.FlippingAnImage.Location = new System.Drawing.Point(174, 128);
+            this.FlippingAnImage.Name = "FlippingAnImage";
+            this.FlippingAnImage.Size = new System.Drawing.Size(142, 23);
+            this.FlippingAnImage.TabIndex = 18;
+            this.FlippingAnImage.Text = "Flipping An Image(832)";
+            this.FlippingAnImage.UseVisualStyleBackColor = true;
+            // 
+            // KthLargestElementInAnArray
+            // 
+            this.KthLargestElementInAnArray.Location = new System.Drawing.Point(322, 128);
+            this.KthLargestElementInAnArray.Name = "KthLargestElementInAnArray";
+            this.KthLargestElementInAnArray.Size = new System.Drawing.Size(211, 23);
+            this.KthLargestElementInAnArray.TabIndex = 19;
+            this.KthLargestElementInAnArray.Text = "Kth Largest Element in an Array(215)";
+            this.KthLargestElementInAnArray.UseVisualStyleBackColor = true;
+            this.KthLargestElementInAnArray.Click += new System.EventHandler(this.KthLargestElementInAnArray_Click);
+            // 
+            // lblSolution
+            // 
+            this.lblSolution.AutoSize = true;
+            this.lblSolution.Location = new System.Drawing.Point(351, 367);
+            this.lblSolution.Name = "lblSolution";
+            this.lblSolution.Size = new System.Drawing.Size(38, 15);
+            this.lblSolution.TabIndex = 20;
+            this.lblSolution.Text = "label1";
+            // 
+            // FruitIntoBaskets
+            // 
+            this.FruitIntoBaskets.Location = new System.Drawing.Point(539, 128);
+            this.FruitIntoBaskets.Name = "FruitIntoBaskets";
+            this.FruitIntoBaskets.Size = new System.Drawing.Size(132, 23);
+            this.FruitIntoBaskets.TabIndex = 21;
+            this.FruitIntoBaskets.Text = "Fruit Into Baskets(904)";
+            this.FruitIntoBaskets.UseVisualStyleBackColor = true;
+            // 
+            // BestTimeToBuyAndSellStock
+            // 
+            this.BestTimeToBuyAndSellStock.Location = new System.Drawing.Point(12, 157);
+            this.BestTimeToBuyAndSellStock.Name = "BestTimeToBuyAndSellStock";
+            this.BestTimeToBuyAndSellStock.Size = new System.Drawing.Size(213, 23);
+            this.BestTimeToBuyAndSellStock.TabIndex = 22;
+            this.BestTimeToBuyAndSellStock.Text = "Best Time to Buy and Sell Stock(121)";
+            this.BestTimeToBuyAndSellStock.UseVisualStyleBackColor = true;
+            // 
+            // GroupAnagrams
+            // 
+            this.GroupAnagrams.Location = new System.Drawing.Point(231, 157);
+            this.GroupAnagrams.Name = "GroupAnagrams";
+            this.GroupAnagrams.Size = new System.Drawing.Size(125, 23);
+            this.GroupAnagrams.TabIndex = 23;
+            this.GroupAnagrams.Text = "Group Anagrams(49)";
+            this.GroupAnagrams.UseVisualStyleBackColor = true;
+            // 
+            // PathSumII
+            // 
+            this.PathSumII.Location = new System.Drawing.Point(362, 157);
+            this.PathSumII.Name = "PathSumII";
+            this.PathSumII.Size = new System.Drawing.Size(112, 23);
+            this.PathSumII.TabIndex = 24;
+            this.PathSumII.Text = "Path Sum II(113)";
+            this.PathSumII.UseVisualStyleBackColor = true;
+            // 
+            // BoatsToSavePeople
+            // 
+            this.BoatsToSavePeople.Location = new System.Drawing.Point(480, 157);
+            this.BoatsToSavePeople.Name = "BoatsToSavePeople";
+            this.BoatsToSavePeople.Size = new System.Drawing.Size(167, 23);
+            this.BoatsToSavePeople.TabIndex = 25;
+            this.BoatsToSavePeople.Text = "Boats to Save People(881)";
+            this.BoatsToSavePeople.UseVisualStyleBackColor = true;
+            // 
+            // CombinationSumII
+            // 
+            this.CombinationSumII.Location = new System.Drawing.Point(650, 157);
+            this.CombinationSumII.Name = "CombinationSumII";
+            this.CombinationSumII.Size = new System.Drawing.Size(148, 23);
+            this.CombinationSumII.TabIndex = 26;
+            this.CombinationSumII.Text = "Combination Sum II(40)";
+            this.CombinationSumII.UseVisualStyleBackColor = true;
+            this.CombinationSumII.Click += new System.EventHandler(this.CombinationSumII_Click);
+            // 
+            // WordSearch
+            // 
+            this.WordSearch.Location = new System.Drawing.Point(125, 203);
+            this.WordSearch.Name = "WordSearch";
+            this.WordSearch.Size = new System.Drawing.Size(75, 23);
+            this.WordSearch.TabIndex = 27;
+            this.WordSearch.Text = "Word Search(79)";
+            this.WordSearch.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(823, 450);
+            this.Controls.Add(this.WordSearch);
+            this.Controls.Add(this.CombinationSumII);
+            this.Controls.Add(this.BoatsToSavePeople);
+            this.Controls.Add(this.PathSumII);
+            this.Controls.Add(this.GroupAnagrams);
+            this.Controls.Add(this.BestTimeToBuyAndSellStock);
+            this.Controls.Add(this.FruitIntoBaskets);
+            this.Controls.Add(this.lblSolution);
+            this.Controls.Add(this.KthLargestElementInAnArray);
+            this.Controls.Add(this.FlippingAnImage);
             this.Controls.Add(this.BattleshipsInABoard);
             this.Controls.Add(this.ValidParentheses);
             this.Controls.Add(this.TwoSum);
@@ -239,6 +351,7 @@ namespace FacebookPrepForms
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -262,6 +375,16 @@ namespace FacebookPrepForms
         private System.Windows.Forms.Button TwoSum;
         private System.Windows.Forms.Button ValidParentheses;
         private System.Windows.Forms.Button BattleshipsInABoard;
+        private System.Windows.Forms.Button FlippingAnImage;
+        private System.Windows.Forms.Button KthLargestElementInAnArray;
+        private System.Windows.Forms.Label lblSolution;
+        private System.Windows.Forms.Button FruitIntoBaskets;
+        private System.Windows.Forms.Button BestTimeToBuyAndSellStock;
+        private System.Windows.Forms.Button GroupAnagrams;
+        private System.Windows.Forms.Button PathSumII;
+        private System.Windows.Forms.Button BoatsToSavePeople;
+        private System.Windows.Forms.Button CombinationSumII;
+        private System.Windows.Forms.Button WordSearch;
     }
 }
 
